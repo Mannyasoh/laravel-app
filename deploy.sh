@@ -13,4 +13,5 @@ sudo systemctl restart php8.1-fpm
 
 sudo systemctl restart nginx
 # Restart the Laravel app's PHP-FPM service
-sudo systemctl restart php8.1-fpm # Adjust for your PHP version
+sudo systemctl restart php8.1-fpm 
+echo "WORK IS DONE"
